@@ -1,4 +1,6 @@
 require("dotenv").config();
+const express = require("express");
+const serverless = require("serverless-http");
 const axios = require("axios");
 const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
@@ -66,3 +68,13 @@ client.on('message', async message => {
 });
 
 client.initialize();
+
+const app = express();
+const router = express.Router();
+
+router.get('/', (req, res) => {
+    res.send("Sauna Bot is ROCKING!!");
+});
+
+app.use('/.netlify/functions/api', router);
+module.exports.handler = serverless(app);
