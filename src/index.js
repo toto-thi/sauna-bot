@@ -76,5 +76,11 @@ router.get('/', (req, res) => {
     res.send("Sauna Bot is ROCKING!!");
 });
 
-app.use('/.netlify/functions/api', router);
-module.exports.handler = serverless(app);
+const startApp = async () => {
+    app.listen(process.env.PORT || 3000, () => 
+    console.log('Example app listening on port 3000!'));
+}
+
+startApp();
+// app.use('/.netlify/functions/api', router);
+// module.exports.handler = serverless(app);
