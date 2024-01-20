@@ -1,7 +1,4 @@
 yarn.lock
 node_modules
-.wwebjs_auth
-.wwebjs_cache
 .env
-node_modules
 .vscode

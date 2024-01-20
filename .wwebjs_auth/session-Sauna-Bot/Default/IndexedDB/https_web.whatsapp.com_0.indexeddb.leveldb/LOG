@@ -1,0 +1,14 @@
+2024/01/20-23:13:41.909 8603 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/20-23:13:41.910 8603 Recovering log #82
+2024/01/20-23:13:41.972 8603 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000082.log 
+2024/01/20-23:14:06.905 a303 Level-0 table #88: started
+2024/01/20-23:14:06.921 a303 Level-0 table #88: 1267603 bytes OK
+2024/01/20-23:14:06.931 a303 Delete type=0 #82
+2024/01/20-23:14:56.048 16203 Compacting 1@1 + 2@2 files
+2024/01/20-23:14:56.113 16203 Generated table #89@1: 57175 keys, 2232407 bytes
+2024/01/20-23:14:56.131 16203 Generated table #90@1: 18979 keys, 520460 bytes
+2024/01/20-23:14:56.131 16203 Compacted 1@1 + 2@2 files => 2752867 bytes
+2024/01/20-23:14:56.142 16203 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/01/20-23:14:56.142 16203 Delete type=2 #88
+2024/01/20-23:14:56.142 16203 Delete type=2 #85
+2024/01/20-23:14:56.142 16203 Delete type=2 #84
