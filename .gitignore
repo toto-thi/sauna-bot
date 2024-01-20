@@ -3,5 +3,5 @@ node_modules
 .env
 .vscode
 
-# Local Netlify folder
-.netlify
+.wwebjs_auth
+.wwebjs_cache
