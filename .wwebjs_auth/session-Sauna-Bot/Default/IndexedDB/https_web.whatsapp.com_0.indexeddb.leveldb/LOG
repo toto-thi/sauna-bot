@@ -1,25 +1,24 @@
-2024/01/20-23:23:48.834 8503 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/20-23:23:48.834 8503 Recovering log #114
-2024/01/20-23:23:48.840 8503 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000114.log 
-2024/01/20-23:23:48.840 8503 Delete type=2 #113
-2024/01/20-23:23:49.953 15607 Level-0 table #119: started
-2024/01/20-23:23:49.963 15607 Level-0 table #119: 97917 bytes OK
-2024/01/20-23:23:49.970 15607 Delete type=0 #114
-2024/01/20-23:23:49.970 15607 Manual compaction at level-0 from '\x00,\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00-\x00\x00\x00' @ 0 : 0; will stop at '\x00-\x00\x00\x05' @ 113560 : 1
-2024/01/20-23:23:49.970 15607 Compacting 1@0 + 1@1 files
-2024/01/20-23:23:50.014 15607 Generated table #120@0: 58369 keys, 1525756 bytes
-2024/01/20-23:23:50.014 15607 Compacted 1@0 + 1@1 files => 1525756 bytes
-2024/01/20-23:23:50.022 15607 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/01/20-23:23:50.022 15607 Delete type=2 #119
-2024/01/20-23:23:50.022 15607 Manual compaction at level-0 from '\x00-\x00\x00\x05' @ 113560 : 1 .. '\x00-\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/01/20-23:23:50.029 15607 Level-0 table #122: started
-2024/01/20-23:23:50.033 15607 Level-0 table #122: 531 bytes OK
-2024/01/20-23:23:50.041 15607 Delete type=2 #116
-2024/01/20-23:23:50.041 15607 Delete type=0 #118
-2024/01/20-23:23:50.042 15607 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at '\x00-\x00\x00\x05' @ 113624 : 0
-2024/01/20-23:23:50.042 15607 Compacting 1@0 + 1@1 files
-2024/01/20-23:23:50.082 15607 Generated table #123@0: 58367 keys, 1525742 bytes
-2024/01/20-23:23:50.082 15607 Compacted 1@0 + 1@1 files => 1525742 bytes
-2024/01/20-23:23:50.090 15607 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/01/20-23:23:50.090 15607 Delete type=2 #122
-2024/01/20-23:23:50.090 15607 Manual compaction at level-0 from '\x00-\x00\x00\x05' @ 113624 : 0 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/21-00:01:48.606 13203 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/21-00:01:48.607 13203 Recovering log #138
+2024/01/21-00:01:48.614 13203 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000138.log 
+2024/01/21-00:01:59.252 13203 Level-0 table #144: started
+2024/01/21-00:01:59.262 13203 Level-0 table #144: 107950 bytes OK
+2024/01/21-00:01:59.268 13203 Delete type=0 #138
+2024/01/21-00:01:59.269 13203 Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/21-00:01:59.269 13203 Level-0 table #146: started
+2024/01/21-00:01:59.274 13203 Level-0 table #146: 467 bytes OK
+2024/01/21-00:01:59.282 13203 Delete type=0 #143
+2024/01/21-00:01:59.282 1f403 Manual compaction at level-0 from '\x003\x00\x00\x00' @ 72057594037927935 : 1 .. '\x004\x00\x00\x00' @ 0 : 0; will stop at '\x003\x00\x00\x05' @ 195523 : 0
+2024/01/21-00:01:59.282 1f403 Compacting 1@0 + 1@1 files
+2024/01/21-00:01:59.289 1f403 Generated table #147@0: 2831 keys, 63356 bytes
+2024/01/21-00:01:59.289 1f403 Compacted 1@0 + 1@1 files => 63356 bytes
+2024/01/21-00:01:59.296 1f403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/01/21-00:01:59.297 1f403 Delete type=2 #146
+2024/01/21-00:01:59.297 1f403 Manual compaction at level-0 from '\x003\x00\x00\x05' @ 195523 : 0 .. '\x004\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/01/21-00:02:00.611 1f403 Compacting 1@1 + 1@2 files
+2024/01/21-00:02:00.651 1f403 Generated table #148@1: 41698 keys, 1811503 bytes
+2024/01/21-00:02:00.651 1f403 Compacted 1@1 + 1@2 files => 1811503 bytes
+2024/01/21-00:02:00.660 1f403 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/01/21-00:02:00.660 1f403 Delete type=2 #141
+2024/01/21-00:02:00.660 1f403 Delete type=2 #147
+2024/01/21-00:02:00.660 1f403 Delete type=2 #144
