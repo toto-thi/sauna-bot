@@ -69,14 +69,13 @@ client.on('message', async message => {
             msg += `Location: ${data[i].Location} \n`;
             msg += `Booked by: ${data[i].BookedBy} \n`;
             msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n`;
-            msg += `Tule nauttimaan saunasta!\n\n`; // Added an extra newline for spacing between entries
         }
     } else {
         msg = 'No sauna schedules available today.';
     }
 
     if (content === 'sauna') {
-        await client.sendMessage(message.from, msg);
+        await client.sendMessage(message.from, msg += "Tule nauttimaan saunasta!\n\n");
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
