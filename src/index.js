@@ -62,7 +62,7 @@ client.on('message', async message => {
     const data = await saunaSchedule(getFormattedDate());
 
     if (content === 'sauna') {
-        await client.sendMessage(message.from, `Today we have a schedule for sauna: \nDate: ${data[0].Date} \nTime: ${data[0].Time} \nLocation: ${data[0].Location} \nBooked by: ${data[0].BookedBy} \nTags: ${data[0].Tags == "" ? "None" : data[0].Tags} \nTule nauttimaan saunasta!`);
+        await client.sendMessage(message.from, `Today we have a schedule for sauna: \nDate: ${data[0].Date} \nFrom: ${data[0].Start} - ${data[0].End} \nLocation: ${data[0].Location} \nBooked by: ${data[0].BookedBy} \nTags: ${data[0].Tags == "" ? "None" : data[0].Tags} \nTule nauttimaan saunasta!`);
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
