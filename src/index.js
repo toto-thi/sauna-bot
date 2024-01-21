@@ -66,7 +66,7 @@ client.on('message', async message => {
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
-        await client.sendMessage(message.from, 'Please fill in the Google Sheet in this group description after you book a sauna.\nAvailable commands:\n 1. sauna\n 2. joke\n 3. safe joke\n 4. dark joke\n 5. programming joke\n 6. misc joke\n 7. pun joke\n 8. spooky joke\nWant more? Tell Toto');
+        await client.sendMessage(message.from, 'Please fill in the Google Sheet in this group description after you book a sauna.\nAvailable commands:\n 1. sauna\n 2. joke\n 3. safe joke\n 4. dark joke\n 5. programming joke\n 6. misc joke\n 7. pun joke\n 8. spooky joke\nWant more? Tell Toto about it');
     }
 });
 
