@@ -60,9 +60,24 @@ const jokeCategories = {
 client.on('message', async message => {
     const content = message.body.toLowerCase();
     const data = await saunaSchedule(getFormattedDate());
+    let msg = "";
+
+    if (data.length > 0) {
+        for (let i = 0; i < data.length; i++) {
+            msg += `Today we have a schedule for sauna: \n`;
+            msg += `Date: ${data[i].Date} \n`;
+            msg += `From: ${data[i].Start} - ${data[i].End} \n`;
+            msg += `Location: ${data[i].Location} \n`;
+            msg += `Booked by: ${data[i].BookedBy} \n`;
+            msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n`;
+            msg += `Tule nauttimaan saunasta!\n\n`; // Added an extra newline for spacing between entries
+        }
+    } else {
+        msg = 'No sauna schedules available today.';
+    }
 
     if (content === 'sauna') {
-        await client.sendMessage(message.from, `Today we have a schedule for sauna: \nDate: ${data[0].Date} \nFrom: ${data[0].Start} - ${data[0].End} \nLocation: ${data[0].Location} \nBooked by: ${data[0].BookedBy} \nTags: ${data[0].Tags == "" ? "None" : data[0].Tags} \nTule nauttimaan saunasta!`);
+        await client.sendMessage(message.from, msg);
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
