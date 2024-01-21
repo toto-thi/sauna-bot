@@ -61,14 +61,14 @@ client.on('message', async message => {
     const content = message.body.toLowerCase();
     const data = await saunaSchedule(getFormattedDate());
     let msg = "Today we have a schedule for sauna: \n";
+    msg += `Date: ${data[0].Date} \n`;
 
     if (data.length > 0) {
         for (let i = 0; i < data.length; i++) {
-            msg += `Date: ${data[i].Date} \n`;
             msg += `From: ${data[i].Start} - ${data[i].End} \n`;
             msg += `Location: ${data[i].Location} \n`;
             msg += `Booked by: ${data[i].BookedBy} \n`;
-            msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n`;
+            msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n\n`;
         }
     } else {
         msg = 'No sauna schedules available today.';
