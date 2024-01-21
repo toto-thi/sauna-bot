@@ -60,11 +60,10 @@ const jokeCategories = {
 client.on('message', async message => {
     const content = message.body.toLowerCase();
     const data = await saunaSchedule(getFormattedDate());
-    let msg = "";
+    let msg = "Today we have a schedule for sauna: \n";
 
     if (data.length > 0) {
         for (let i = 0; i < data.length; i++) {
-            msg += `Today we have a schedule for sauna: \n`;
             msg += `Date: ${data[i].Date} \n`;
             msg += `From: ${data[i].Start} - ${data[i].End} \n`;
             msg += `Location: ${data[i].Location} \n`;
