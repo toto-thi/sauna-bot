@@ -23,9 +23,10 @@ const saunaSchedule = async (today) => {
 };
 
 const client = new Client({
-    // puppeteer: {
-    //     headless: false, // use for logins only
-    // },
+    puppeteer: {
+        headless: true, // use for logins only
+        args: [' --disable-setuid-sandbox', '--no-sandbox']
+    },
     authStrategy: new LocalAuth({
         clientId: 'Sauna-Bot',
     }),
