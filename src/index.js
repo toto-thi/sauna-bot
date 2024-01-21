@@ -75,7 +75,7 @@ client.on('message', async message => {
     }
 
     if (content === 'sauna') {
-        await client.sendMessage(message.from, msg += "Tule nauttimaan saunasta!\n\n");
+        await client.sendMessage(message.from, msg += "Tule nauttimaan saunasta!");
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
