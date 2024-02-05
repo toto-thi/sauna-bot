@@ -41,7 +41,7 @@ client.on('ready', () => {
 });
 
 const makeJoke = async (mode, message) => {
-    const joke = await axios.get(  `https://v2.jokeapi.dev/joke/${mode}`).then(res => res.data);
+    const joke = await axios.get(`https://v2.jokeapi.dev/joke/${mode}`).then(res => res.data);
 
     const jokeMsg = await client.sendMessage(message.from, joke.setup);
     if (joke.delivery) setTimeout(function () { jokeMsg.reply(joke.delivery) }, 5000);
@@ -59,23 +59,26 @@ const jokeCategories = {
 
 client.on('message', async message => {
     const content = message.body.toLowerCase();
-    const data = await saunaSchedule(getFormattedDate());
-    let msg = "Today we have a schedule for sauna: \n";
-    msg += `Date: ${data[0].Date} \n`;
-
-    if (data.length > 0) {
-        for (let i = 0; i < data.length; i++) {
-            msg += `From: ${data[i].Start} - ${data[i].End} \n`;
-            msg += `Location: ${data[i].Location} \n`;
-            msg += `Booked by: ${data[i].BookedBy} \n`;
-            msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n\n`;
-        }
-    } else {
-        msg = 'No sauna schedules available today.';
-    }
-
+    
     if (content === 'sauna') {
-        await client.sendMessage(message.from, msg += "Tule nauttimaan saunasta!");
+        // const data = await saunaSchedule("31-01-2024");
+        const data = await saunaSchedule(getFormattedDate());
+        let msg = ""
+        if (typeof data === "string") {
+            await client.sendMessage(message.from, msg = data);
+        } else if (typeof data === "object") {
+            msg = "Today we have a schedule for sauna: \n";
+            msg += `Date: ${data[0].Date} \n`;
+
+            for (let i = 0; i < data.length; i++) {
+                msg += `From: ${data[i].Start} - ${data[i].End} \n`;
+                msg += `Location: ${data[i].Location} \n`;
+                msg += `Booked by: ${data[i].BookedBy} \n`;
+                msg += `Tags: ${data[i].Tags === "" ? "None" : data[i].Tags} \n\n`;
+            }
+
+            await client.sendMessage(message.from, msg += "Tule nauttimaan saunasta!");
+        }
     } else if (jokeCategories[content]){
         await makeJoke(jokeCategories[content], message);
     } else if (content === 'help') {
@@ -100,3 +103,4 @@ const startApp = async () => {
 startApp();
 // app.use('/.netlify/functions/api', router);
 // module.exports.handler = serverless(app);
+

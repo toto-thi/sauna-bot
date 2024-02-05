@@ -1,2 +1,5 @@
-2024/01/21-02:39:41.594 8903 Creating DB /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/Local Storage/leveldb since it was missing.
-2024/01/21-02:39:41.609 8903 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/Local Storage/leveldb/MANIFEST-000001
+2024/02/05-14:02:28.361 f103 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/Local Storage/leveldb/MANIFEST-000001
+2024/02/05-14:02:28.361 f103 Recovering log #3
+2024/02/05-14:02:28.362 f103 Level-0 table #3: started
+2024/02/05-14:02:28.372 f103 Level-0 table #3: 17855 bytes OK
+2024/02/05-14:02:28.384 f103 Delete type=0 #3
