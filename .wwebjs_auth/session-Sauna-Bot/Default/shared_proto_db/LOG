@@ -1,3 +1,2 @@
-2024/02/05-14:01:33.854 3e03 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/shared_proto_db/MANIFEST-000001
-2024/02/05-14:01:33.857 3e03 Recovering log #3
-2024/02/05-14:01:33.857 3e03 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/shared_proto_db/000003.log 
+2024/02/25-15:18:28.416 3a03 Creating DB /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/shared_proto_db since it was missing.
+2024/02/25-15:18:28.429 3a03 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/shared_proto_db/MANIFEST-000001

@@ -1,40 +1,24 @@
-2024/02/05-14:02:29.155 f403 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/05-14:02:29.155 f403 Recovering log #331
-2024/02/05-14:02:29.222 f403 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000331.log 
-2024/02/05-14:02:30.124 f403 Level-0 table #336: started
-2024/02/05-14:02:30.146 f403 Level-0 table #336: 946023 bytes OK
-2024/02/05-14:02:30.161 f403 Delete type=0 #331
-2024/02/05-14:02:30.162 f403 Manual compaction at level-0 from '\x00a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00b\x00\x00\x00' @ 0 : 0; will stop at '\x00b\x00\x00\x05' @ 711906 : 1
-2024/02/05-14:02:30.162 f403 Compacting 1@0 + 1@1 files
-2024/02/05-14:02:30.221 f403 Generated table #337@0: 66715 keys, 2068389 bytes
-2024/02/05-14:02:30.221 f403 Compacted 1@0 + 1@1 files => 2068389 bytes
-2024/02/05-14:02:30.227 f403 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/02/05-14:02:30.227 f403 Delete type=2 #336
-2024/02/05-14:02:30.228 f403 Manual compaction at level-0 from '\x00b\x00\x00\x05' @ 711906 : 1 .. '\x00b\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/02/05-14:02:30.238 f103 Level-0 table #339: started
-2024/02/05-14:02:30.243 f103 Level-0 table #339: 533 bytes OK
-2024/02/05-14:02:30.251 f103 Delete type=0 #335
-2024/02/05-14:02:30.251 f103 Delete type=2 #333
-2024/02/05-14:02:30.252 f103 Manual compaction at level-0 from '\x00b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00c\x00\x00\x00' @ 0 : 0; will stop at '\x00b\x00\x00\x05' @ 711952 : 0
-2024/02/05-14:02:30.252 f103 Compacting 1@0 + 1@1 files
-2024/02/05-14:02:30.305 f103 Generated table #340@0: 66718 keys, 2068398 bytes
-2024/02/05-14:02:30.305 f103 Compacted 1@0 + 1@1 files => 2068398 bytes
-2024/02/05-14:02:30.314 f103 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/02/05-14:02:30.314 f103 Delete type=2 #339
-2024/02/05-14:02:30.314 f103 Manual compaction at level-0 from '\x00b\x00\x00\x05' @ 711952 : 0 .. '\x00c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/02/05-14:02:51.407 15e03 Compacting 1@1 + 1@2 files
-2024/02/05-14:02:51.447 15e03 Generated table #341@1: 28189 keys, 1753337 bytes
-2024/02/05-14:02:51.447 15e03 Compacted 1@1 + 1@2 files => 1753337 bytes
-2024/02/05-14:02:51.459 15e03 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/05-14:02:51.459 15e03 Delete type=2 #298
-2024/02/05-14:02:51.459 15e03 Delete type=2 #340
-2024/02/05-14:02:51.459 15e03 Delete type=2 #337
-2024/02/05-14:03:15.688 1f503 Level-0 table #343: started
-2024/02/05-14:03:15.714 1f503 Level-0 table #343: 1124375 bytes OK
-2024/02/05-14:03:15.724 1f503 Delete type=0 #338
-2024/02/05-14:03:16.714 8a03 Compacting 1@1 + 1@2 files
-2024/02/05-14:03:16.781 8a03 Generated table #344@1: 43687 keys, 2198593 bytes
-2024/02/05-14:03:16.781 8a03 Compacted 1@1 + 1@2 files => 2198593 bytes
-2024/02/05-14:03:16.791 8a03 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/05-14:03:16.791 8a03 Delete type=2 #343
-2024/02/05-14:03:16.791 8a03 Delete type=2 #341
+2024/02/25-15:19:30.523 8203 Reusing MANIFEST /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/25-15:19:30.523 8203 Recovering log #36
+2024/02/25-15:19:30.536 8203 Reusing old log /Users/thinakone/Code/sauna-bot/.wwebjs_auth/session-Sauna-Bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000036.log 
+2024/02/25-15:19:31.398 12207 Level-0 table #41: started
+2024/02/25-15:19:31.416 12207 Level-0 table #41: 191932 bytes OK
+2024/02/25-15:19:31.427 12207 Delete type=0 #36
+2024/02/25-15:19:31.427 12207 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/02/25-15:19:31.428 b603 Level-0 table #43: started
+2024/02/25-15:19:31.432 b603 Level-0 table #43: 530 bytes OK
+2024/02/25-15:19:31.439 b603 Delete type=0 #40
+2024/02/25-15:19:31.439 b603 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x16\x00\x00\x05' @ 64788 : 0
+2024/02/25-15:19:31.439 b603 Compacting 1@0 + 1@1 files
+2024/02/25-15:19:31.447 b603 Generated table #44@0: 4324 keys, 103865 bytes
+2024/02/25-15:19:31.447 b603 Compacted 1@0 + 1@1 files => 103865 bytes
+2024/02/25-15:19:31.453 b603 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/02/25-15:19:31.454 b603 Delete type=2 #43
+2024/02/25-15:19:31.454 b603 Manual compaction at level-0 from '\x00\x16\x00\x00\x05' @ 64788 : 0 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/02/25-15:19:32.772 b103 Compacting 1@1 + 1@2 files
+2024/02/25-15:19:32.788 b103 Generated table #45@1: 14015 keys, 557141 bytes
+2024/02/25-15:19:32.788 b103 Compacted 1@1 + 1@2 files => 557141 bytes
+2024/02/25-15:19:32.798 b103 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/25-15:19:32.798 b103 Delete type=2 #38
+2024/02/25-15:19:32.798 b103 Delete type=2 #41
+2024/02/25-15:19:32.798 b103 Delete type=2 #44
