@@ -23,6 +23,7 @@ Then run:
 > npm start `OR` yarn start
 
 The console log will show QR Code for you to login with your WhatsApp.
+
 ![Sauna DB](figures/wa-qr-login.png)
 
 Note: You are required a WhatsApp number to act as a bot itself. (I used my unused number for this). Once the console show `Client is ready` you can start using the bot command.
